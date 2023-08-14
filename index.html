@@ -17,6 +17,7 @@
     const saludarButton = document.getElementById('saludarBoton');
 
     saludarButton.onclick = function() {
+      event.stopPropagation();
       alert('Hola!');
     };
 </script>
